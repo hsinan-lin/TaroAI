@@ -29,11 +29,11 @@ def header():
     )
     cols = st.columns([0.15, 0.15, 0.3, 0.15, 0.15])
     with cols[1]:
-        st.image('/Users/linhsinan/Downloads/SittingOnAppStoreLogo.svg')
+        st.image('./SittingOnAppStoreLogo.svg')
     with cols[2]:
-        st.image('/Users/linhsinan/Downloads/Group 12.png')
+        st.image('./pile.png')
     with cols[3]:
-        st.image('/Users/linhsinan/Downloads/SittingOnAppStoreLogo.svg')
+        st.image('./SittingOnAppStoreLogo.svg')
 
 def chatarea():    
     # Clear results
